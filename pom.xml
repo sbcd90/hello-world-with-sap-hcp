@@ -9,42 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.releases/</url>
-        </repository>
-        <repository>
-            <id>nexus-snapshots</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.snapshots/</url>
-        </repository>
-        <repository>
-            <id>nexus-milestones</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.releases/</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>nexus-snapshots</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.snapshots/</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>nexus-milestones</id>
-            <name>nexus</name>
-            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
